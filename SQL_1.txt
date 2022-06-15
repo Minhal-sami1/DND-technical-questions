@@ -1,0 +1,3 @@
+SELECT COUNT(name), grad_year
+FROM Education
+GROUP BY grad_year;

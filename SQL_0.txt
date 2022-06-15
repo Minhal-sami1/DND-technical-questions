@@ -1,0 +1,3 @@
+SELECT Education.name, Education.grad_year, Location.location
+FROM Education
+INNER JOIN Location ON Education.name=Location.name;
